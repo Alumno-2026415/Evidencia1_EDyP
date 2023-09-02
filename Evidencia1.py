@@ -1,7 +1,12 @@
 import datetime
-print("!HOLA! soy Alan")
+
+patrón_fecha = r"^\d{1,2}\d{2}-\d{2}-\d{4}$"
+
 notas = []
+notas_canceladas = []
+
 folios_contador = 0
+
 while True:
     print("1. Registrar una nota.\n2. Consultas y reportes.\n3. Cancelar una nota.\n4. Recuperar nota.\n5. Salir")
     
